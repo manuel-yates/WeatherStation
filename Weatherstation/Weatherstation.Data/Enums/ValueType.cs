@@ -1,8 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace Weatherstation.Data.Enums;
+
 
 public enum ValueType
 {
-    Temperature,
+    Temperature = 0,
     Humidity,
     Pressure,
 }

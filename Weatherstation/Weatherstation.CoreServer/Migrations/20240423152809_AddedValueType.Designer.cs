@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Weatherstation.CoreServer.Context;
 
@@ -11,9 +12,11 @@ using Weatherstation.CoreServer.Context;
 namespace Weatherstation.CoreServer.Migrations
 {
     [DbContext(typeof(WeatherDataContext))]
-    partial class WeatherDataContextModelSnapshot : ModelSnapshot
+    [Migration("20240423152809_AddedValueType")]
+    partial class AddedValueType
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
