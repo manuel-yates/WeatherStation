@@ -25,4 +25,8 @@
       <ProjectReference Include="..\Weatherstation.Data\Weatherstation.Data.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Mocking\" />
+    </ItemGroup>
+
 </Project>
