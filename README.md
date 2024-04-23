@@ -1,6 +1,6 @@
 # WeatherStation
 
-# German
+## German
 Ich möchte diese Wetterstation als Portfolio-Projekt entwickeln, um meine Fähigkeiten und Kenntnisse im Bereich Blazor und C# darzustellen.
 
 Die Wetterstation soll folgende Funktionalitäten bieten:
@@ -19,12 +19,12 @@ Die Wetterstation soll folgende Funktionalitäten bieten:
 - [ ] Deployen über Azure auf lokalem Server
 - [ ] Deployen über Azure auf Cloud-Server
 
-# Kontakt
+### Kontakt
 Falls du noch Ideen oder Verbesserungsvorschläge hast, schreib mir gerne eine Nachricht über mein LinkedIn Profil in meiner Bio.
 
 <hr>
 
-# English
+## English
 I would like to develop this weather station as a portfolio project to showcase my skills and knowledge in Blazor and C#.
 
 The weather station should offer the following functionalities:
@@ -43,7 +43,7 @@ The weather station should offer the following functionalities:
 - [ ] Deploy via Azure on local server
 - [ ] Deploy via Azure on cloud server
 
-# Contact
+### Contact
 If you have any ideas or suggestions for improvement, feel free to write me a message via my LinkedIn profile in my bio.
 
 # Stack
