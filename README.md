@@ -47,7 +47,7 @@ The weather station should offer the following functionalities:
 If you have any ideas or suggestions for improvement, feel free to write me a message via my LinkedIn profile in my bio.
 
 # Stack
-- UI: Blazor, MudBlazor
+- UI: Blazor, [MudBlazor](https://mudblazor.com)
 - Sensor-Board: C
 - Backend: C#, ASP.Net, EnityFramework (Code First)
 - DB: MSSQL
