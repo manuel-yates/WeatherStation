@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weatherstation.Aspire.AppHost", "Weatherstation.Aspire\Weatherstation.Aspire.AppHost\Weatherstation.Aspire.AppHost.csproj", "{89CA96F9-FD9F-4842-A218-750BE54CD19B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weatherstation.Aspire.ServiceDefaults", "Weatherstation.Aspire\Weatherstation.Aspire.ServiceDefaults\Weatherstation.Aspire.ServiceDefaults.csproj", "{3FB23B97-0A74-4745-884A-FE172C251D5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aspire", "Aspire", "{A9E02206-798E-45E0-945A-8F94180E3F95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weatherstation.UI.Webserver", "Weatherstation.UI.Webserver\Weatherstation.UI.Webserver.csproj", "{C2E73329-2890-4C41-84B9-81F3316BBBE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Weatherstation.UI", "Weatherstation.UI", "{8705B13C-6760-45A8-967D-4B0B014C2684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weatherstation.CoreServer", "Weatherstation.CoreServer\Weatherstation.CoreServer.csproj", "{FF381C95-8F0D-4FCA-9CE2-4D8D16B7FB88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weatherstation.Data", "Weatherstation.Data\Weatherstation.Data.csproj", "{376AFCBF-710F-49CD-8BB8-943A0FEF5F5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weatherstation.UI.DataAccess", "Weatherstation.UI.DataAccess\Weatherstation.UI.DataAccess.csproj", "{5666AA09-45A5-4650-B3B0-1F489A5D5B55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89CA96F9-FD9F-4842-A218-750BE54CD19B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CA96F9-FD9F-4842-A218-750BE54CD19B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CA96F9-FD9F-4842-A218-750BE54CD19B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CA96F9-FD9F-4842-A218-750BE54CD19B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB23B97-0A74-4745-884A-FE172C251D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB23B97-0A74-4745-884A-FE172C251D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB23B97-0A74-4745-884A-FE172C251D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB23B97-0A74-4745-884A-FE172C251D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E73329-2890-4C41-84B9-81F3316BBBE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E73329-2890-4C41-84B9-81F3316BBBE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E73329-2890-4C41-84B9-81F3316BBBE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E73329-2890-4C41-84B9-81F3316BBBE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF381C95-8F0D-4FCA-9CE2-4D8D16B7FB88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF381C95-8F0D-4FCA-9CE2-4D8D16B7FB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF381C95-8F0D-4FCA-9CE2-4D8D16B7FB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF381C95-8F0D-4FCA-9CE2-4D8D16B7FB88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376AFCBF-710F-49CD-8BB8-943A0FEF5F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376AFCBF-710F-49CD-8BB8-943A0FEF5F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376AFCBF-710F-49CD-8BB8-943A0FEF5F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376AFCBF-710F-49CD-8BB8-943A0FEF5F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5666AA09-45A5-4650-B3B0-1F489A5D5B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5666AA09-45A5-4650-B3B0-1F489A5D5B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5666AA09-45A5-4650-B3B0-1F489A5D5B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5666AA09-45A5-4650-B3B0-1F489A5D5B55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89CA96F9-FD9F-4842-A218-750BE54CD19B} = {A9E02206-798E-45E0-945A-8F94180E3F95}
+		{3FB23B97-0A74-4745-884A-FE172C251D5B} = {A9E02206-798E-45E0-945A-8F94180E3F95}
+		{C2E73329-2890-4C41-84B9-81F3316BBBE3} = {8705B13C-6760-45A8-967D-4B0B014C2684}
+		{5666AA09-45A5-4650-B3B0-1F489A5D5B55} = {8705B13C-6760-45A8-967D-4B0B014C2684}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+﻿@inherits LayoutComponentBase
+<MudThemeProvider Theme="_theme"/>
+<MudDialogProvider/>
+<MudSnackbarProvider/>
+
+<MudLayout>
+    <MudAppBar Elevation="1">
+        <MudText Typo="Typo.h5" Class="ml-3">Wetterstation</MudText>
+        <MudSpacer/>
+        <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End"/>
+    </MudAppBar>
+    <MudMainContent>
+        @Body
+    </MudMainContent>
+</MudLayout>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
+
+@code{
+
+    private readonly MudTheme _theme = new()
+    {
+        Palette = new PaletteLight()
+        {
+            Primary = "#7CF695",
+            Secondary = "#B0ECD2",
+            AppbarBackground = "EEE",
+            AppbarText = "#2b2b2b"
+        },
+    };
+
+}
