@@ -11,7 +11,7 @@ Die Wetterstation soll folgende Funktionalitäten bieten:
   - [ ] MQTT
   - [ ] REST
 - [ ] Bereitstellen von Schnittstellen zum Auswerten:
-  - [ ] REST
+  - [x] REST
   - [ ] GraphQL
 - [ ] Bereitstellen verschiedener UI-Plattformen:
   - [ ] Blazor
@@ -33,7 +33,7 @@ The weather station should offer the following functionalities:
   - [ ] from different stations
 - [ ] Receive weather data via:
   - [ ] MQTT
-  - [ ] REST
+  - [x] REST
 - [ ] Providing interfaces for evaluation:
   - [ ] REST
   - [ ] GraphQL
