@@ -3,7 +3,7 @@ using Weatherstation.Data.Models;
 
 namespace Weatherstation.CoreServer.Interfaces;
 
-internal interface IEntryRepo
+public interface IEntryRepo
 {
     /// <summary>
     /// Adds an entry to the database

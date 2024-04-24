@@ -2,7 +2,7 @@ using Weatherstation.Data.Models;
 
 namespace Weatherstation.CoreServer.Interfaces;
 
-internal interface IStationRepo
+public interface IStationRepo
 {
     /// <summary>
     /// Adds a station to the database
