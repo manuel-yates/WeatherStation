@@ -4,7 +4,7 @@ namespace Weatherstation.CoreServer.Mocking;
 
 public class EntryGenerator
 {
-    public List<Entry> Generate(int count)
+    public List<Entry> Generate(int count, Station station)
     {
         var entries = new List<Entry>();
         var random = new Random();
@@ -14,8 +14,7 @@ public class EntryGenerator
             {
                 Timestamp = DateTime.Now.AddMinutes(-i),
                 Value  = random.Next(-20, 40),
-                StationId = 1 ,
-                
+                Station = station
             });
         }
         return entries;
