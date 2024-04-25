@@ -5,8 +5,8 @@ namespace Weatherstation.CoreServer.Mocking;
 public class MockGenerator
 {
     StationGenerator stationGenerator = new();
-    public static List<Station> Stations;
-    public static List<Entry> Entries;
+    public static List<Station> Stations = new();
+    public static List<Entry> Entries = new();
 
     public async Task GenerateMockData()
     {
