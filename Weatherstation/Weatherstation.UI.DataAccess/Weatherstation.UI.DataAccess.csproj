@@ -7,12 +7,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Services\Mocking\" />
-      <Folder Include="Services\REST\" />
+      <ProjectReference Include="..\Weatherstation.Data\Weatherstation.Data.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Weatherstation.Data\Weatherstation.Data.csproj" />
+      <PackageReference Include="NUnit" Version="4.1.0" />
     </ItemGroup>
 
 </Project>

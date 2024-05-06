@@ -4,6 +4,7 @@ namespace Weatherstation.UI.DataAccess.Interfaces;
 
 public interface IEntryService
 {
+    
     /// <summary>
     /// Posts a new Entry to the API
     /// </summary>
