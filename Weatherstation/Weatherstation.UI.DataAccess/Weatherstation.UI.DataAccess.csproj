@@ -6,4 +6,12 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Weatherstation.Data\Weatherstation.Data.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="NUnit" Version="4.1.0" />
+    </ItemGroup>
+
 </Project>
